@@ -1,0 +1,1 @@
+{"private":true,"dependencies":{"types-registry":"^0.1.649"},"devDependencies":{"@types/react":"^18.2.12","@types/react-dom":"^18.2.5","@types/testing-library__jest-dom":"^5.14.6","@types/websocket":"^1.0.5","@types/ws":"^8.5.5"}}

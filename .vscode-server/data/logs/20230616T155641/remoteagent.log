@@ -1,0 +1,17 @@
+2023-06-16 15:56:41.598 [info] 
+
+
+
+
+2023-06-16 15:56:41.622 [info] Extension host agent started.
+2023-06-16 15:56:42.193 [info] [127.0.0.1][e69c9a0b][ManagementConnection] New connection established.
+2023-06-16 15:56:42.511 [info] [127.0.0.1][8ffec003][ExtensionHostConnection] New connection established.
+2023-06-16 15:56:42.841 [info] [127.0.0.1][8ffec003][ExtensionHostConnection] <105841> Launched Extension Host Process.
+2023-06-16 16:01:41.624 [info] New EH opened, aborting shutdown
+2023-06-16 16:06:27.175 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2023-06-16 16:06:27.177 [info] [127.0.0.1][e69c9a0b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2023-06-16 19:06:34.723 [info] [127.0.0.1][e69c9a0b][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2023-06-16 19:06:36.231 [info] [127.0.0.1][8ffec003][ExtensionHostConnection] <105841> Extension Host Process exited with code: 0, signal: null.
+2023-06-16 19:06:36.232 [info] Last EH closed, waiting before shutting down
+2023-06-16 19:11:36.233 [info] Last EH closed, shutting down

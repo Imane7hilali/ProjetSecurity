@@ -1,0 +1,21 @@
+2023-06-14 20:47:08.702 [info] Log level: Info
+2023-06-14 20:47:08.702 [info] Validating found git in: "git"
+2023-06-14 20:47:08.702 [info] Using git "2.34.1" from "git"
+2023-06-14 20:47:08.702 [info] > git rev-parse --show-toplevel [13ms]
+2023-06-14 20:47:08.702 [info] > git rev-parse --git-dir --git-common-dir [48ms]
+2023-06-14 20:47:08.702 [info] Open repository: /home/salah/newapp
+2023-06-14 20:47:08.702 [info] > git rev-parse --show-toplevel [18ms]
+2023-06-14 20:47:08.702 [info] > git config --get commit.template [30ms]
+2023-06-14 20:47:08.702 [info] No remotes found in the git config file.
+2023-06-14 20:47:08.702 [info] > git rev-parse --show-toplevel [20ms]
+2023-06-14 20:47:08.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [54ms]
+2023-06-14 20:47:08.702 [info] > git rev-parse --show-toplevel [35ms]
+2023-06-14 20:47:08.702 [info] > git status -z -uall --find-renames=50% [24ms]
+2023-06-14 20:47:08.702 [info] > git config --get commit.template [1ms]
+2023-06-14 20:47:08.702 [info] No remotes found in the git config file.
+2023-06-14 20:47:08.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [25ms]
+2023-06-14 20:47:08.702 [info] > git status -z -uall --find-renames=50% [10ms]
+2023-06-14 20:47:08.702 [info] > git check-ignore -v -z --stdin [40ms]
+2023-06-14 20:47:08.702 [info] > git show --textconv :src/App.js [17ms]
+2023-06-14 20:47:08.702 [info] > git ls-files --stage -- /home/salah/newapp/src/App.js [10ms]
+2023-06-14 20:47:08.702 [info] > git cat-file -s 37845757234ccb68531c10cf7a2ffc589c47e342 [2ms]

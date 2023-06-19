@@ -1,0 +1,52 @@
+2023-06-17 13:15:02.310 [info] 
+
+
+
+
+2023-06-17 13:15:02.334 [info] Extension host agent started.
+2023-06-17 13:15:02.886 [info] [127.0.0.1][4cc6a47a][ManagementConnection] New connection established.
+2023-06-17 13:15:03.039 [info] [127.0.0.1][c36b49ae][ExtensionHostConnection] New connection established.
+2023-06-17 13:15:03.464 [info] [127.0.0.1][c36b49ae][ExtensionHostConnection] <130761> Launched Extension Host Process.
+2023-06-17 13:19:47.694 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-06-17 13:19:47.694 [info] Cancelling previous shutdown timeout
+2023-06-17 13:19:49.655 [info] [127.0.0.1][a85a49b9][ManagementConnection] New connection established.
+2023-06-17 13:19:55.292 [info] [127.0.0.1][125827e9][ExtensionHostConnection] New connection established.
+2023-06-17 13:19:55.311 [info] [127.0.0.1][125827e9][ExtensionHostConnection] <131229> Launched Extension Host Process.
+2023-06-17 13:19:56.918 [warning] RequestStore#acceptReply was called without receiving a matching request 31
+2023-06-17 13:19:56.919 [warning] RequestStore#acceptReply was called without receiving a matching request 32
+2023-06-17 13:19:56.920 [warning] RequestStore#acceptReply was called without receiving a matching request 33
+2023-06-17 13:19:56.920 [warning] RequestStore#acceptReply was called without receiving a matching request 34
+2023-06-17 13:19:58.177 [warning] RequestStore#acceptReply was called without receiving a matching request 35
+2023-06-17 13:19:58.178 [warning] RequestStore#acceptReply was called without receiving a matching request 36
+2023-06-17 13:19:58.178 [warning] RequestStore#acceptReply was called without receiving a matching request 37
+2023-06-17 13:19:58.178 [warning] RequestStore#acceptReply was called without receiving a matching request 38
+2023-06-17 13:20:02.666 [warning] RequestStore#acceptReply was called without receiving a matching request 39
+2023-06-17 13:20:02.666 [warning] RequestStore#acceptReply was called without receiving a matching request 40
+2023-06-17 13:20:02.666 [warning] RequestStore#acceptReply was called without receiving a matching request 41
+2023-06-17 13:20:02.667 [warning] RequestStore#acceptReply was called without receiving a matching request 42
+2023-06-17 13:20:02.669 [warning] RequestStore#acceptReply was called without receiving a matching request 43
+2023-06-17 13:20:02.669 [warning] RequestStore#acceptReply was called without receiving a matching request 44
+2023-06-17 13:20:02.669 [warning] RequestStore#acceptReply was called without receiving a matching request 45
+2023-06-17 13:20:02.669 [warning] RequestStore#acceptReply was called without receiving a matching request 46
+2023-06-17 13:20:02.672 [warning] RequestStore#acceptReply was called without receiving a matching request 47
+2023-06-17 13:20:02.672 [warning] RequestStore#acceptReply was called without receiving a matching request 48
+2023-06-17 13:20:02.672 [warning] RequestStore#acceptReply was called without receiving a matching request 49
+2023-06-17 13:20:02.672 [warning] RequestStore#acceptReply was called without receiving a matching request 50
+2023-06-17 13:20:02.675 [warning] RequestStore#acceptReply was called without receiving a matching request 51
+2023-06-17 13:20:02.675 [warning] RequestStore#acceptReply was called without receiving a matching request 52
+2023-06-17 13:20:02.675 [warning] RequestStore#acceptReply was called without receiving a matching request 53
+2023-06-17 13:20:02.675 [warning] RequestStore#acceptReply was called without receiving a matching request 54
+2023-06-17 13:22:41.163 [warning] RequestStore#acceptReply was called without receiving a matching request 55
+2023-06-17 13:22:41.184 [warning] RequestStore#acceptReply was called without receiving a matching request 56
+2023-06-17 13:22:41.274 [warning] RequestStore#acceptReply was called without receiving a matching request 57
+2023-06-17 13:22:41.334 [warning] RequestStore#acceptReply was called without receiving a matching request 58
+2023-06-17 13:22:41.416 [warning] RequestStore#acceptReply was called without receiving a matching request 59
+2023-06-17 13:22:41.491 [warning] RequestStore#acceptReply was called without receiving a matching request 60
+2023-06-17 13:24:47.696 [info] New EH opened, aborting shutdown
+2023-06-17 13:52:33.439 [info] [127.0.0.1][4cc6a47a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-17 13:52:33.466 [info] [127.0.0.1][c36b49ae][ExtensionHostConnection] <130761> Extension Host Process exited with code: 0, signal: null.
+2023-06-17 14:46:49.071 [info] [127.0.0.1][125827e9][ExtensionHostConnection] The client has reconnected.
+2023-06-17 14:57:47.101 [info] [127.0.0.1][a85a49b9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-17 14:57:47.164 [info] [127.0.0.1][125827e9][ExtensionHostConnection] <131229> Extension Host Process exited with code: 0, signal: null.
+2023-06-17 14:57:47.165 [info] Last EH closed, waiting before shutting down
+2023-06-17 15:02:47.166 [info] Last EH closed, shutting down

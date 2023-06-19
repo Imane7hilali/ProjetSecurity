@@ -1,0 +1,23 @@
+2023-06-15 12:12:55.107 [info] 
+
+
+
+
+2023-06-15 12:12:55.131 [info] Extension host agent started.
+2023-06-15 12:12:55.715 [info] [127.0.0.1][7f7da8c2][ManagementConnection] New connection established.
+2023-06-15 12:12:56.120 [info] [127.0.0.1][118f4fc4][ExtensionHostConnection] New connection established.
+2023-06-15 12:12:56.254 [info] [127.0.0.1][118f4fc4][ExtensionHostConnection] <55551> Launched Extension Host Process.
+2023-06-15 12:17:55.132 [info] New EH opened, aborting shutdown
+2023-06-15 13:35:12.839 [info] [127.0.0.1][8a1c9b4c][ManagementConnection] New connection established.
+2023-06-15 13:35:12.977 [info] [127.0.0.1][fe6ad7e3][ExtensionHostConnection] New connection established.
+2023-06-15 13:35:12.984 [info] [127.0.0.1][fe6ad7e3][ExtensionHostConnection] <58056> Launched Extension Host Process.
+2023-06-15 13:40:12.997 [info] [127.0.0.1][118f4fc4][ExtensionHostConnection] <55551> Extension Host Process exited with code: 0, signal: null.
+2023-06-15 21:43:35.756 [error] Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)
+2023-06-15 23:35:26.857 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2023-06-15 23:35:26.858 [info] [127.0.0.1][8a1c9b4c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2023-06-16 02:35:31.795 [info] [127.0.0.1][8a1c9b4c][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2023-06-16 02:35:34.948 [info] [127.0.0.1][fe6ad7e3][ExtensionHostConnection] <58056> Extension Host Process exited with code: 0, signal: null.
+2023-06-16 02:35:34.948 [info] Last EH closed, waiting before shutting down
+2023-06-16 02:40:34.949 [info] Last EH closed, shutting down

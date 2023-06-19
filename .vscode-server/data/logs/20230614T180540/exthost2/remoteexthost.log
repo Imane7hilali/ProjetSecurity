@@ -1,0 +1,86 @@
+2023-06-14 18:24:09.747 [info] Extension host with pid 39111 started
+2023-06-14 18:24:09.764 [info] Lock '/home/salah/.vscode-server/data/User/workspaceStorage/34ae697b0902466c60d61c9b7c53fa81/vscode.lock': Lock acquired.
+2023-06-14 18:24:10.588 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-06-14 18:24:10.606 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-06-14 18:24:10.791 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-14 18:24:11.685 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-06-14 18:24:13.788 [info] Eager extensions activated
+2023-06-14 18:24:13.788 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-14 18:24:13.789 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-14 18:24:15.793 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-06-14 18:24:15.793 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-14 20:51:59.155 [info] Extension host terminating: renderer disconnected for too long (2)
+2023-06-14 20:51:59.155 [info] Lock '/home/salah/.vscode-server/data/User/workspaceStorage/34ae697b0902466c60d61c9b7c53fa81/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-06-14 20:51:59.170 [error] Canceled: Canceled
+	at new l (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:100:105905)
+	at s.O (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:112:11754)
+	at Proxy.z.<computed>.H.charCodeAt.z.<computed> (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:112:9029)
+	at e.ExtHostCommands.g (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:100:130078)
+	at e.ExtHostCommands.executeCommand (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:100:129454)
+	at k.registerCommand.description (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:100:128747)
+	at e.ExtHostCommands.h (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:100:130664)
+	at e.ExtHostCommands.g (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:100:129554)
+	at e.ExtHostCommands.executeCommand (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:100:129454)
+	at Object.executeCommand (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:118:24230)
+	at D (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/main.js:2:1261260)
+	at b.invoke (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at deliver (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/main.js:2:1276093)
+	at /home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/main.js:2:1280594
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/main.js:2:1280580)
+	at r.<anonymous> (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:98:12552)
+	at r.dispose (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:98:12687)
+	at r.<anonymous> (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/main.js:2:1263390)
+	at r.dispose (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:98:12687)
+	at I (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:10:12083)
+	at n.Z (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:114:11285)
+	at /home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:114:9187
+	at Array.map (<anonymous>)
+	at n.S (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:114:9175)
+	at n.terminate (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:114:9445)
+	at h.terminate (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:118:1544)
+	at p (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:128:34497)
+	at H.a (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:128:31052)
+	at H.h (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:67:18301)
+	at listOnTimeout (node:internal/timers:559:17)
+	at processTimers (node:internal/timers:502:7) setContext undefined
+2023-06-14 20:51:59.171 [error] Canceled: Canceled
+	at new l (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:100:105905)
+	at s.O (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:112:11754)
+	at Proxy.z.<computed>.H.charCodeAt.z.<computed> (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:112:9029)
+	at e.ExtHostCommands.g (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:100:130078)
+	at e.ExtHostCommands.executeCommand (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:100:129454)
+	at k.registerCommand.description (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:100:128747)
+	at e.ExtHostCommands.h (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:100:130664)
+	at e.ExtHostCommands.g (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:100:129554)
+	at e.ExtHostCommands.executeCommand (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:100:129454)
+	at Object.executeCommand (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:118:24230)
+	at p.VscodeDevShareProvider.set b [as b] (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/github/dist/extension.js:2:152873)
+	at /home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/github/dist/extension.js:2:153583
+	at /home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/main.js:2:1348853
+	at b.invoke (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at deliver (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/main.js:2:1276093)
+	at /home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/main.js:2:1280594
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/main.js:2:1280580)
+	at r.<anonymous> (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:98:12552)
+	at r.dispose (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:98:12687)
+	at r.<anonymous> (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/extensions/git/dist/main.js:2:1263390)
+	at r.dispose (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:98:12687)
+	at I (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:10:12083)
+	at n.Z (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:114:11285)
+	at /home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:114:9187
+	at Array.map (<anonymous>)
+	at n.S (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:114:9175)
+	at n.terminate (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:114:9445)
+	at h.terminate (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:118:1544)
+	at p (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:128:34497)
+	at H.a (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:128:31052)
+	at H.h (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/workbench/api/node/extensionHostProcess.js:67:18301)
+	at listOnTimeout (node:internal/timers:559:17)
+	at processTimers (node:internal/timers:502:7) setContext undefined
+2023-06-14 20:51:59.171 [info] Extension host with pid 39111 exiting with code 0

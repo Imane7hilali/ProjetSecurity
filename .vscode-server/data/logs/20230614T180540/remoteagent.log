@@ -1,0 +1,62 @@
+2023-06-14 18:05:40.416 [info] 
+
+
+
+
+2023-06-14 18:05:40.416 [info] Extension host agent started.
+2023-06-14 18:05:40.430 [info] Started initializing default profile extensions in extensions installation folder. file:///home/salah/.vscode-server/extensions
+2023-06-14 18:05:40.486 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/salah/.vscode-server/extensions
+2023-06-14 18:05:40.756 [info] [127.0.0.1][4efbe807][ManagementConnection] New connection established.
+2023-06-14 18:05:41.006 [info] [127.0.0.1][e6da210e][ExtensionHostConnection] New connection established.
+2023-06-14 18:05:41.137 [info] [127.0.0.1][e6da210e][ExtensionHostConnection] <33612> Launched Extension Host Process.
+2023-06-14 18:10:40.356 [info] New EH opened, aborting shutdown
+2023-06-14 18:23:56.329 [info] [127.0.0.1][4efbe807][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-14 18:23:56.353 [info] [127.0.0.1][e6da210e][ExtensionHostConnection] <33612> Extension Host Process exited with code: 0, signal: null.
+2023-06-14 18:23:56.354 [info] Last EH closed, waiting before shutting down
+2023-06-14 18:24:06.551 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-06-14 18:24:06.551 [info] Cancelling previous shutdown timeout
+2023-06-14 18:24:06.927 [info] [127.0.0.1][77afb89e][ManagementConnection] New connection established.
+2023-06-14 18:24:07.050 [info] [127.0.0.1][59fe4958][ExtensionHostConnection] New connection established.
+2023-06-14 18:24:07.054 [info] [127.0.0.1][59fe4958][ExtensionHostConnection] <39111> Launched Extension Host Process.
+2023-06-14 18:24:12.665 [error] CodeExpectedError: Could not find pty on pty host
+    at k.L (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:28:6920)
+    at k.updateIcon (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:28:2677)
+    at Object.call (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:17:5058)
+    at h.s (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at h.q (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at l.invoke (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at u.deliver (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at s.fire (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.z (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:9:21144)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-06-14 18:24:12.678 [error] CodeExpectedError: Could not find pty on pty host
+    at k.L (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:28:6920)
+    at k.updateTitle (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:28:2627)
+    at Object.call (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:17:5058)
+    at h.s (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at h.q (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at l.invoke (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at u.deliver (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:11:2125)
+    at s.fire (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:11:1733)
+    at process.z (/home/salah/.vscode-server/bin/b380da4ef1ee00e224a15c1d4d9793e27c2b6302/out/vs/platform/terminal/node/ptyHostMain.js:9:21144)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-06-14 18:29:06.551 [info] New EH opened, aborting shutdown
+2023-06-14 20:46:58.947 [info] [127.0.0.1][119c3aa3][ManagementConnection] New connection established.
+2023-06-14 20:46:59.246 [info] [127.0.0.1][50922f4b][ExtensionHostConnection] New connection established.
+2023-06-14 20:46:59.252 [info] [127.0.0.1][50922f4b][ExtensionHostConnection] <41545> Launched Extension Host Process.
+2023-06-14 20:47:12.208 [info] [127.0.0.1][119c3aa3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-14 20:47:12.253 [info] [127.0.0.1][50922f4b][ExtensionHostConnection] <41545> Extension Host Process exited with code: 0, signal: null.
+2023-06-14 20:47:26.716 [info] [127.0.0.1][a79875c2][ManagementConnection] New connection established.
+2023-06-14 20:47:27.642 [info] [127.0.0.1][a0ef5581][ExtensionHostConnection] New connection established.
+2023-06-14 20:47:27.650 [info] [127.0.0.1][a0ef5581][ExtensionHostConnection] <41757> Launched Extension Host Process.
+2023-06-14 20:51:59.185 [info] [127.0.0.1][59fe4958][ExtensionHostConnection] <39111> Extension Host Process exited with code: 0, signal: null.
+2023-06-14 22:31:03.879 [info] [127.0.0.1][a79875c2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-06-14 22:31:03.947 [info] [127.0.0.1][a0ef5581][ExtensionHostConnection] <41757> Extension Host Process exited with code: 0, signal: null.
+2023-06-14 22:31:03.947 [info] Last EH closed, waiting before shutting down
+2023-06-14 22:36:03.948 [info] Last EH closed, shutting down
